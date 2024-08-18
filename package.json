@@ -1,8 +1,6 @@
 {
   "name": "rocket-icons",
-  "version": "0.0.3",
-  "main": "index.ts",
-  "types": "types.ts",
+  "version": "0.0.4",
   "repository": "https://github.com/lld4n/rocket-icons.git",
   "author": "lldan",
   "license": "MIT",
