@@ -1,0 +1,15 @@
+{
+  "folders": {
+    "folder": ["folder"],
+    "convex": ["convex"],
+    "angular": [".angular"],
+    "git": [".git"],
+    "github":[ ".github"],
+    "node_modules": ["node_modules"],
+    "src": ["src"],
+    "public": ["public"],
+    "typescript": ["types", "type", "interfaces", "interface"],
+    "test":["test", "tests"]
+  },
+  "files": {}
+}
