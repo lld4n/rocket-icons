@@ -1,58 +1,16 @@
-export enum FileNameType {
-  FULL = "FULL",
-  INCLUDES = "INCLUDES",
-  REGEX = "REGEX",
-}
-
 export enum IconType {
   FOLDER = "folders",
-  FILE = "files",
-  EXT = "ext",
   COMMON = "common",
+  FILE = "files",
 }
 
-interface FileNameBase {
-  type: FileNameType;
+export enum IconVariant {
+  DUO = "duo",
+  OUTLINE = "outline",
+  FILLED = "filled",
 }
 
-interface FileNameFull extends FileNameBase {
-  type: FileNameType.FULL;
-  filename: string;
-}
-
-interface FileNameIncludes extends FileNameBase {
-  type: FileNameType.INCLUDES;
-  filename: string;
-}
-
-interface FileNameRegex extends FileNameBase {
-  type: FileNameType.REGEX;
-  filename: RegExp;
-}
-
-type FileName = FileNameFull | FileNameIncludes | FileNameRegex;
-
-export interface IconBase {
+export interface Icon {
   icon: string;
-  filenames: FileName[];
+  filenames: string[];
 }
-
-export type Icon = IconBase & { type: IconType };
-
-export enum MapType {
-  FOLDERS_FULL = "FOLDERS_FULL",
-  FOLDERS_INCLUDES = "FOLDERS_INCLUDES",
-  FOLDERS_REGEX = "FOLDERS_REGEX",
-  FILES_FULL = "FILES_FULL",
-  FILES_INCLUDES = "FILES_INCLUDES",
-  FILES_REGEX = "FILES_REGEX",
-}
-
-interface MapItem {
-  val: string;
-  filename: string;
-}
-
-export type Map = {
-  [key in MapType]: MapItem[];
-};

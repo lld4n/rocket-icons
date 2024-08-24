@@ -1,10 +1,13 @@
 {
   "name": "rocket-icons",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "repository": "https://github.com/lld4n/rocket-icons.git",
   "author": "lldan",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "@types/node": "^22.5.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }

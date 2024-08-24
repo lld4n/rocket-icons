@@ -1,8 +1,3 @@
-import { Icon, IconBase, IconType } from "./types";
+import { Icon } from "./types";
 
-const base: IconBase[] = [{ icon: "folder", filenames: [] }];
-
-export const common: Icon[] = base.map((item) => ({
-  ...item,
-  type: IconType.COMMON,
-}));
+export const common: Icon[] = [{ icon: "folder", filenames: [] }];
