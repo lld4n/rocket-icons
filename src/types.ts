@@ -38,3 +38,21 @@ export interface IconBase {
 }
 
 export type Icon = IconBase & { type: IconType };
+
+export enum MapType {
+  FOLDERS_FULL = "FOLDERS_FULL",
+  FOLDERS_INCLUDES = "FOLDERS_INCLUDES",
+  FOLDERS_REGEX = "FOLDERS_REGEX",
+  FILES_FULL = "FILES_FULL",
+  FILES_INCLUDES = "FILES_INCLUDES",
+  FILES_REGEX = "FILES_REGEX",
+}
+
+interface MapItem {
+  val: string;
+  filename: string;
+}
+
+export type Map = {
+  [key in MapType]: MapItem[];
+};

@@ -1,4 +1,4 @@
-import { Icon, IconBase, IconType } from "../types";
+import { Icon, IconBase, IconType } from "./types";
 
 const base: IconBase[] = [{ icon: "folder", filenames: [] }];
 
