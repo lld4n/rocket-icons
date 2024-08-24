@@ -17,7 +17,7 @@ export const map = (): Map => {
       if (item.type === IconType.FOLDER) {
         res[(item.type + "_" + filename.type).toUpperCase()].push({
           val: item.type + "_" + item.icon,
-          filename: filename.toString(),
+          filename: filename.filename.toString(),
         });
       }
     }
