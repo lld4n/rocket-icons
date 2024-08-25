@@ -35,7 +35,7 @@ export const folders: Icon[] = [
   { icon: "nx", filenames: ["nx", ".nx"] },
   { icon: "hole", filenames: ["node_modules"] },
   {
-    icon: "components",
+    icon: "component",
     filenames: ["component", "components"],
   },
   {
@@ -147,7 +147,7 @@ export const folders: Icon[] = [
     ],
   },
   {
-    icon: "drafts",
+    icon: "draft",
     filenames: [
       "_draft",
       "_drafts",
