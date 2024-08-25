@@ -1,380 +1,520 @@
 # DUO
 ## FOLDERS
-- src ![src](../icons/duo/folders/src.svg)
-  - `source`
-  - `sources`
-  - `src`
-  - `project`
-  - `projects`
-  - `app`
-  - `apps`
-  - `code`
-- devcontainer ![devcontainer](../icons/duo/folders/devcontainer.svg)
-  - `.devcontainer`
-  - `devcontainer`
-- github ![github](../icons/duo/folders/github.svg)
-  - `github`
-  - `.github`
-  - `workflow`
-  - `workflows`
-- husky ![husky](../icons/duo/folders/husky.svg)
-  - `husky`
-  - `.husky`
-- git ![git](../icons/duo/folders/git.svg)
-  - `git`
-  - `.git`
-  - `patches`
-  - `githooks`
-  - `.githooks`
-  - `submodules`
-  - `.submodules`
-- idea ![idea](../icons/duo/folders/idea.svg)
-  - `.idea`
-  - `idea`
-- angular ![angular](../icons/duo/folders/angular.svg)
-  - `.angular`
-  - `angular`
-- vscode ![vscode](../icons/duo/folders/vscode.svg)
-  - `vscode`
-  - `.vscode`
-- nx ![nx](../icons/duo/folders/nx.svg)
-  - `nx`
-  - `.nx`
-- hole ![hole](../icons/duo/folders/hole.svg)
-  - `node_modules`
-- component ![component](../icons/duo/folders/component.svg)
-  - `component`
-  - `components`
-- typescript ![typescript](../icons/duo/folders/typescript.svg)
-  - `type`
-  - `types`
-  - `model`
-  - `models`
-  - `interface`
-  - `interfaces`
-  - `typings`
-  - `@types`
-- util ![util](../icons/duo/folders/util.svg)
-  - `utils`
-  - `util`
-  - `utility`
-  - `utilities`
-- constant ![constant](../icons/duo/folders/constant.svg)
-  - `constant`
-  - `constants`
-- test ![test](../icons/duo/folders/test.svg)
-  - `test`
-  - `tests`
-  - `e2e`
-  - `integration`
-  - `integrations`
-  - `coverage`
-  - `.nvc-output`
-  - `it`
-  - `integration-test`
-  - `integration-tests`
-  - `__integration-test__`
-  - `__integration-tests__`
-  - `testing`
-  - `__tests__`
-  - `__test__`
-  - `spec`
-  - `specs`
-- style ![style](../icons/duo/folders/style.svg)
-  - `style`
-  - `styles`
-- android ![android](../icons/duo/folders/android.svg)
-  - `android`
-- ios ![ios](../icons/duo/folders/ios.svg)
-  - `ios`
-- assets ![assets](../icons/duo/folders/assets.svg)
-  - `asset`
-  - `assets`
-  - `public`
-  - `image`
-  - `images`
-  - `_images`
-  - `_image`
-  - `_imgs`
-  - `_img`
-  - `imgs`
-  - `img`
-  - `icons`
-  - `icon`
-  - `ico`
-  - `figures`
-  - `figure`
-  - `figs`
-  - `fig`
-  - `screenshot`
-  - `screenshots`
-  - `screengrab`
-  - `screengrabs`
-  - `pic`
-  - `pics`
-  - `picture`
-  - `pictures`
-  - `photo`
-  - `photos`
-  - `photograph`
-  - `photographs`
-- cypress ![cypress](../icons/duo/folders/cypress.svg)
-  - `cypress`
-  - `.cypress`
-- playwright ![playwright](../icons/duo/folders/playwright.svg)
-  - `playwright`
-- locale ![locale](../icons/duo/folders/locale.svg)
-  - `i18n`
-  - `internationalization`
-  - `lang`
-  - `langs`
-  - `language`
-  - `languages`
-  - `locale`
-  - `locales`
-  - `i10n`
-  - `localization`
-  - `translation`
-  - `translate`
-  - `translations`
-  - `.tx`
-- draft ![draft](../icons/duo/folders/draft.svg)
-  - `_draft`
-  - `_drafts`
-  - `fixture`
-  - `fixtures`
-  - `mocks`
-  - `mock`
-  - `concept`
-  - `concepts`
-  - `sketch`
-  - `sketches`
-- dist ![dist](../icons/duo/folders/dist.svg)
-  - `dist`
-  - `out`
-  - `build`
-  - `release`
-  - `.output`
-  - `bin`
-- view ![view](../icons/duo/folders/view.svg)
-  - `view`
-  - `views`
-  - `screen`
-  - `screens`
-  - `page`
-  - `pages`
-  - `public_html`
-  - `html`
-- convex ![convex](../icons/duo/folders/convex.svg)
-  - `convex`
-- audio ![audio](../icons/duo/folders/audio.svg)
-  - `aud`
-  - `auds`
-  - `audio`
-  - `audios`
-  - `music`
-  - `sound`
-  - `sounds`
-- aws ![aws](../icons/duo/folders/aws.svg)
-  - `aws`
-  - `.aws`
-- azure ![azure](../icons/duo/folders/azure.svg)
-  - `.azure-devops`
-  - `.azuredevops`
-  - `.azure-pipelines`
-- benchmark ![benchmark](../icons/duo/folders/benchmark.svg)
-  - `benchmark`
-  - `benchmarks`
-  - `performance`
-  - `measure`
-  - `measures`
-  - `measurement`
-- caddy ![caddy](../icons/duo/folders/caddy.svg)
-  - `caddy`
-  - `.caddy`
-  - `caddyfiles`
-  - `.caddyfiles`
-- pwa ![pwa](../icons/duo/folders/pwa.svg)
-  - `pwa`
-- cloud ![cloud](../icons/duo/folders/cloud.svg)
-  - `cloud`
-- command ![command](../icons/duo/folders/command.svg)
-  - `command`
-  - `commands`
-  - `cli`
-  - `clis`
-  - `cmd`
-- config ![config](../icons/duo/folders/config.svg)
-  - `cfg`
-  - `cfgs`
-  - `conf`
-  - `.config`
-  - `config`
-  - `configs`
-  - `configuration`
-  - `configurations`
-  - `setting`
-  - `.setting`
-  - `settings`
-  - `.settings`
-  - `META-INF`
-  - `options`
-  - `option`
-- connection ![connection](../icons/duo/folders/connection.svg)
-  - `connection`
-  - `connections`
-- db ![db](../icons/duo/folders/db.svg)
-  - `db`
-  - `database`
-  - `databases`
-  - `sql`
-  - `data`
-  - `_data`
-- debug ![debug](../icons/duo/folders/debug.svg)
-  - `debug`
-  - `debugging`
-- docker ![docker](../icons/duo/folders/docker.svg)
-  - `docker`
-  - `.docker`
-  - `dockerfiles`
-- docs ![docs](../icons/duo/folders/docs.svg)
-  - `_post`
-  - `_posts`
-  - `doc`
-  - `docs`
-  - `document`
-  - `documents`
-  - `documentation`
-  - `post`
-  - `posts`
-  - `article`
-  - `articles`
-- download ![download](../icons/duo/folders/download.svg)
-  - `downloads`
-  - `download`
-- fastlane ![fastlane](../icons/duo/folders/fastlane.svg)
-  - `fastlane`
-  - `.fastlane`
-- firebase ![firebase](../icons/duo/folders/firebase.svg)
-  - `firebase`
-  - `.firebase`
-- font ![font](../icons/duo/folders/font.svg)
-  - `font`
-  - `fonts`
-- function ![function](../icons/duo/folders/function.svg)
-  - `func`
-  - `funcs`
-  - `functions`
-  - `function`
-  - `lambda`
-  - `lambdas`
-  - `logic`
-  - `math`
-  - `maths`
-  - `calc`
-  - `calcs`
-  - `calculation`
-  - `calculations`
-- gitlab ![gitlab](../icons/duo/folders/gitlab.svg)
-  - `gitlab`
-  - `.gitlab`
-- kubernetes ![kubernetes](../icons/duo/folders/kubernetes.svg)
-  - `kubernetes`
-  - `.kubernetes`
-  - `k8s`
-  - `.k8s`
-- next ![next](../icons/duo/folders/next.svg)
-  - `.next`
-- nuxt ![nuxt](../icons/duo/folders/nuxt.svg)
-  - `nuxt`
-  - `.nuxt`
-- plugin ![plugin](../icons/duo/folders/plugin.svg)
-  - `plugin`
-  - `plugins`
-  - `_plugins`
-  - `mod`
-  - `mods`
-  - `modding`
-  - `extension`
-  - `extensions`
-  - `addon`
-  - `addons`
-  - `module`
-  - `modules`
-- prisma ![prisma](../icons/duo/folders/prisma.svg)
-  - `prisma`
-- site ![site](../icons/duo/folders/site.svg)
-  - `_site`
-  - `www`
-  - `wwwroot`
-  - `web`
-  - `website`
-  - `site`
-  - `browser`
-  - `browsers`
-- redux ![redux](../icons/duo/folders/redux.svg)
-  - `redux`
-- route ![route](../icons/duo/folders/route.svg)
-  - `routes`
-  - `router`
-  - `routers`
-  - `route`
-- sass ![sass](../icons/duo/folders/sass.svg)
-  - `sass`
-  - `_sass`
-- scss ![scss](../icons/duo/folders/scss.svg)
-  - `scss`
-  - `_scss`
-- css ![css](../icons/duo/folders/css.svg)
-  - `css`
-  - `_css`
-- security ![security](../icons/duo/folders/security.svg)
-  - `security`
-- server ![server](../icons/duo/folders/server.svg)
-  - `server`
-  - `servers`
-  - `backend`
-- storybook ![storybook](../icons/duo/folders/storybook.svg)
-  - `.storybook`
-  - `storybook`
-  - `stories`
-  - `__stories__`
-- tauri ![tauri](../icons/duo/folders/tauri.svg)
-  - `tauri`
-  - `src-tauri`
-- cache ![cache](../icons/duo/folders/cache.svg)
-  - `temp`
-  - `.temp`
-  - `tmp`
-  - `.tmp`
-  - `cached`
-  - `cache`
-  - `.cache`
-- turbo ![turbo](../icons/duo/folders/turbo.svg)
-  - `.turbo`
-  - `turbo`
-- upload ![upload](../icons/duo/folders/upload.svg)
-  - `upload`
-  - `uploads`
-- vercel ![vercel](../icons/duo/folders/vercel.svg)
-  - `.vercel`
-  - `vercel`
-  - `now`
-  - `.now`
-- video ![video](../icons/duo/folders/video.svg)
-  - `vid`
-  - `vids`
-  - `video`
-  - `videos`
-  - `movie`
-  - `movies`
-- yarn ![yarn](../icons/duo/folders/yarn.svg)
-  - `.yarn`
-- wxt ![wxt](../icons/duo/folders/wxt.svg)
-  - `.wxt`
-- gradle ![gradle](../icons/duo/folders/gradle.svg)
-  - `gradle`
-  - `.gradle`
-- kotlin ![kotlin](../icons/duo/folders/kotlin.svg)
-  - `kotlin`
-  - `.kotlin`
+### src
+<img src="../icons/duo/folders/src.svg" width="60" height="60"/>
+
+`source`
+`sources`
+`src`
+`project`
+`projects`
+`app`
+`apps`
+`code`
+### devcontainer
+<img src="../icons/duo/folders/devcontainer.svg" width="60" height="60"/>
+
+`.devcontainer`
+`devcontainer`
+### github
+<img src="../icons/duo/folders/github.svg" width="60" height="60"/>
+
+`github`
+`.github`
+`workflow`
+`workflows`
+### husky
+<img src="../icons/duo/folders/husky.svg" width="60" height="60"/>
+
+`husky`
+`.husky`
+### git
+<img src="../icons/duo/folders/git.svg" width="60" height="60"/>
+
+`git`
+`.git`
+`patches`
+`githooks`
+`.githooks`
+`submodules`
+`.submodules`
+### idea
+<img src="../icons/duo/folders/idea.svg" width="60" height="60"/>
+
+`.idea`
+`idea`
+### angular
+<img src="../icons/duo/folders/angular.svg" width="60" height="60"/>
+
+`.angular`
+`angular`
+### vscode
+<img src="../icons/duo/folders/vscode.svg" width="60" height="60"/>
+
+`vscode`
+`.vscode`
+### nx
+<img src="../icons/duo/folders/nx.svg" width="60" height="60"/>
+
+`nx`
+`.nx`
+### hole
+<img src="../icons/duo/folders/hole.svg" width="60" height="60"/>
+
+`node_modules`
+### component
+<img src="../icons/duo/folders/component.svg" width="60" height="60"/>
+
+`component`
+`components`
+### typescript
+<img src="../icons/duo/folders/typescript.svg" width="60" height="60"/>
+
+`type`
+`types`
+`model`
+`models`
+`interface`
+`interfaces`
+`typings`
+`@types`
+### util
+<img src="../icons/duo/folders/util.svg" width="60" height="60"/>
+
+`utils`
+`util`
+`utility`
+`utilities`
+### constant
+<img src="../icons/duo/folders/constant.svg" width="60" height="60"/>
+
+`constant`
+`constants`
+### test
+<img src="../icons/duo/folders/test.svg" width="60" height="60"/>
+
+`test`
+`tests`
+`e2e`
+`integration`
+`integrations`
+`coverage`
+`.nvc-output`
+`it`
+`integration-test`
+`integration-tests`
+`__integration-test__`
+`__integration-tests__`
+`testing`
+`__tests__`
+`__test__`
+`spec`
+`specs`
+### style
+<img src="../icons/duo/folders/style.svg" width="60" height="60"/>
+
+`style`
+`styles`
+### android
+<img src="../icons/duo/folders/android.svg" width="60" height="60"/>
+
+`android`
+### ios
+<img src="../icons/duo/folders/ios.svg" width="60" height="60"/>
+
+`ios`
+### assets
+<img src="../icons/duo/folders/assets.svg" width="60" height="60"/>
+
+`asset`
+`assets`
+`public`
+`image`
+`images`
+`_images`
+`_image`
+`_imgs`
+`_img`
+`imgs`
+`img`
+`icons`
+`icon`
+`ico`
+`figures`
+`figure`
+`figs`
+`fig`
+`screenshot`
+`screenshots`
+`screengrab`
+`screengrabs`
+`pic`
+`pics`
+`picture`
+`pictures`
+`photo`
+`photos`
+`photograph`
+`photographs`
+### cypress
+<img src="../icons/duo/folders/cypress.svg" width="60" height="60"/>
+
+`cypress`
+`.cypress`
+### playwright
+<img src="../icons/duo/folders/playwright.svg" width="60" height="60"/>
+
+`playwright`
+### locale
+<img src="../icons/duo/folders/locale.svg" width="60" height="60"/>
+
+`i18n`
+`internationalization`
+`lang`
+`langs`
+`language`
+`languages`
+`locale`
+`locales`
+`i10n`
+`localization`
+`translation`
+`translate`
+`translations`
+`.tx`
+### draft
+<img src="../icons/duo/folders/draft.svg" width="60" height="60"/>
+
+`_draft`
+`_drafts`
+`fixture`
+`fixtures`
+`mocks`
+`mock`
+`concept`
+`concepts`
+`sketch`
+`sketches`
+### dist
+<img src="../icons/duo/folders/dist.svg" width="60" height="60"/>
+
+`dist`
+`out`
+`build`
+`release`
+`.output`
+`bin`
+### view
+<img src="../icons/duo/folders/view.svg" width="60" height="60"/>
+
+`view`
+`views`
+`screen`
+`screens`
+`page`
+`pages`
+`public_html`
+`html`
+### convex
+<img src="../icons/duo/folders/convex.svg" width="60" height="60"/>
+
+`convex`
+### audio
+<img src="../icons/duo/folders/audio.svg" width="60" height="60"/>
+
+`aud`
+`auds`
+`audio`
+`audios`
+`music`
+`sound`
+`sounds`
+### aws
+<img src="../icons/duo/folders/aws.svg" width="60" height="60"/>
+
+`aws`
+`.aws`
+### azure
+<img src="../icons/duo/folders/azure.svg" width="60" height="60"/>
+
+`.azure-devops`
+`.azuredevops`
+`.azure-pipelines`
+### benchmark
+<img src="../icons/duo/folders/benchmark.svg" width="60" height="60"/>
+
+`benchmark`
+`benchmarks`
+`performance`
+`measure`
+`measures`
+`measurement`
+### caddy
+<img src="../icons/duo/folders/caddy.svg" width="60" height="60"/>
+
+`caddy`
+`.caddy`
+`caddyfiles`
+`.caddyfiles`
+### pwa
+<img src="../icons/duo/folders/pwa.svg" width="60" height="60"/>
+
+`pwa`
+### cloud
+<img src="../icons/duo/folders/cloud.svg" width="60" height="60"/>
+
+`cloud`
+### command
+<img src="../icons/duo/folders/command.svg" width="60" height="60"/>
+
+`command`
+`commands`
+`cli`
+`clis`
+`cmd`
+### config
+<img src="../icons/duo/folders/config.svg" width="60" height="60"/>
+
+`cfg`
+`cfgs`
+`conf`
+`.config`
+`config`
+`configs`
+`configuration`
+`configurations`
+`setting`
+`.setting`
+`settings`
+`.settings`
+`META-INF`
+`options`
+`option`
+### connection
+<img src="../icons/duo/folders/connection.svg" width="60" height="60"/>
+
+`connection`
+`connections`
+### db
+<img src="../icons/duo/folders/db.svg" width="60" height="60"/>
+
+`db`
+`database`
+`databases`
+`sql`
+`data`
+`_data`
+### debug
+<img src="../icons/duo/folders/debug.svg" width="60" height="60"/>
+
+`debug`
+`debugging`
+### docker
+<img src="../icons/duo/folders/docker.svg" width="60" height="60"/>
+
+`docker`
+`.docker`
+`dockerfiles`
+### docs
+<img src="../icons/duo/folders/docs.svg" width="60" height="60"/>
+
+`_post`
+`_posts`
+`doc`
+`docs`
+`document`
+`documents`
+`documentation`
+`post`
+`posts`
+`article`
+`articles`
+### download
+<img src="../icons/duo/folders/download.svg" width="60" height="60"/>
+
+`downloads`
+`download`
+### fastlane
+<img src="../icons/duo/folders/fastlane.svg" width="60" height="60"/>
+
+`fastlane`
+`.fastlane`
+### firebase
+<img src="../icons/duo/folders/firebase.svg" width="60" height="60"/>
+
+`firebase`
+`.firebase`
+### font
+<img src="../icons/duo/folders/font.svg" width="60" height="60"/>
+
+`font`
+`fonts`
+### function
+<img src="../icons/duo/folders/function.svg" width="60" height="60"/>
+
+`func`
+`funcs`
+`functions`
+`function`
+`lambda`
+`lambdas`
+`logic`
+`math`
+`maths`
+`calc`
+`calcs`
+`calculation`
+`calculations`
+### gitlab
+<img src="../icons/duo/folders/gitlab.svg" width="60" height="60"/>
+
+`gitlab`
+`.gitlab`
+### kubernetes
+<img src="../icons/duo/folders/kubernetes.svg" width="60" height="60"/>
+
+`kubernetes`
+`.kubernetes`
+`k8s`
+`.k8s`
+### next
+<img src="../icons/duo/folders/next.svg" width="60" height="60"/>
+
+`.next`
+### nuxt
+<img src="../icons/duo/folders/nuxt.svg" width="60" height="60"/>
+
+`nuxt`
+`.nuxt`
+### plugin
+<img src="../icons/duo/folders/plugin.svg" width="60" height="60"/>
+
+`plugin`
+`plugins`
+`_plugins`
+`mod`
+`mods`
+`modding`
+`extension`
+`extensions`
+`addon`
+`addons`
+`module`
+`modules`
+### prisma
+<img src="../icons/duo/folders/prisma.svg" width="60" height="60"/>
+
+`prisma`
+### site
+<img src="../icons/duo/folders/site.svg" width="60" height="60"/>
+
+`_site`
+`www`
+`wwwroot`
+`web`
+`website`
+`site`
+`browser`
+`browsers`
+### redux
+<img src="../icons/duo/folders/redux.svg" width="60" height="60"/>
+
+`redux`
+### route
+<img src="../icons/duo/folders/route.svg" width="60" height="60"/>
+
+`routes`
+`router`
+`routers`
+`route`
+### sass
+<img src="../icons/duo/folders/sass.svg" width="60" height="60"/>
+
+`sass`
+`_sass`
+### scss
+<img src="../icons/duo/folders/scss.svg" width="60" height="60"/>
+
+`scss`
+`_scss`
+### css
+<img src="../icons/duo/folders/css.svg" width="60" height="60"/>
+
+`css`
+`_css`
+### security
+<img src="../icons/duo/folders/security.svg" width="60" height="60"/>
+
+`security`
+### server
+<img src="../icons/duo/folders/server.svg" width="60" height="60"/>
+
+`server`
+`servers`
+`backend`
+### storybook
+<img src="../icons/duo/folders/storybook.svg" width="60" height="60"/>
+
+`.storybook`
+`storybook`
+`stories`
+`__stories__`
+### tauri
+<img src="../icons/duo/folders/tauri.svg" width="60" height="60"/>
+
+`tauri`
+`src-tauri`
+### cache
+<img src="../icons/duo/folders/cache.svg" width="60" height="60"/>
+
+`temp`
+`.temp`
+`tmp`
+`.tmp`
+`cached`
+`cache`
+`.cache`
+### turbo
+<img src="../icons/duo/folders/turbo.svg" width="60" height="60"/>
+
+`.turbo`
+`turbo`
+### upload
+<img src="../icons/duo/folders/upload.svg" width="60" height="60"/>
+
+`upload`
+`uploads`
+### vercel
+<img src="../icons/duo/folders/vercel.svg" width="60" height="60"/>
+
+`.vercel`
+`vercel`
+`now`
+`.now`
+### video
+<img src="../icons/duo/folders/video.svg" width="60" height="60"/>
+
+`vid`
+`vids`
+`video`
+`videos`
+`movie`
+`movies`
+### yarn
+<img src="../icons/duo/folders/yarn.svg" width="60" height="60"/>
+
+`.yarn`
+### wxt
+<img src="../icons/duo/folders/wxt.svg" width="60" height="60"/>
+
+`.wxt`
+### gradle
+<img src="../icons/duo/folders/gradle.svg" width="60" height="60"/>
+
+`gradle`
+`.gradle`
+### kotlin
+<img src="../icons/duo/folders/kotlin.svg" width="60" height="60"/>
+
+`kotlin`
+`.kotlin`
