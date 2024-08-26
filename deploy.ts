@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import { spawnSync } from "node:child_process";
-import { folders, IconVariant } from "./src";
+import { files, folders, IconVariant } from "./src";
 
 const PACKAGE_JSON = JSON.parse(fs.readFileSync("./package.json").toString());
 
@@ -27,6 +27,15 @@ for (const key in IconVariant) {
   for (const icon of folders) {
     md += `### ${icon.icon}\n`;
     md += `<img src="../icons/${key.toLowerCase()}/folders/${icon.icon}.svg" width="60" height="60"/>\n\n`;
+    for (const filename of icon.filenames) {
+      md += `\`${filename}\`\n`;
+    }
+  }
+
+  md += `## FILES [ONLY TOKENS]\n`;
+  for (const icon of files) {
+    md += `### ${icon.icon}\n`;
+    // md += `<img src="../icons/${key.toLowerCase()}/folders/${icon.icon}.svg" width="60" height="60"/>\n\n`;
     for (const filename of icon.filenames) {
       md += `\`${filename}\`\n`;
     }
