@@ -2,6 +2,7 @@ export enum IconType {
   FOLDER = "folders",
   COMMON = "common",
   FILE = "files",
+  EXT = "ext",
 }
 
 export enum IconVariant {

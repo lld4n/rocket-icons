@@ -126,12 +126,8 @@ export const files: Icon[] = [
     icon: "browserslist",
   },
   {
-    filenames: ["bunfig.toml"],
+    filenames: ["bunfig.toml", "bun.lockb"],
     icon: "bun",
-  },
-  {
-    filenames: ["bun.lockb"],
-    icon: "bun_lock",
   },
   {
     filenames: ["caddyfile"],
@@ -142,12 +138,8 @@ export const files: Icon[] = [
     icon: "capacitor",
   },
   {
-    filenames: ["cargo.toml"],
+    filenames: ["cargo.toml", "cargo.lock"],
     icon: "cargo",
-  },
-  {
-    filenames: ["cargo.lock"],
-    icon: "cargo_lock",
   },
   {
     filenames: [
@@ -237,12 +229,8 @@ export const files: Icon[] = [
     icon: "cypress",
   },
   {
-    filenames: ["deno.json", "deno.jsonc"],
+    filenames: ["deno.json", "deno.jsonc", "deno.lock"],
     icon: "deno",
-  },
-  {
-    filenames: ["deno.lock"],
-    icon: "deno_lock",
   },
   {
     filenames: ["dependabot.yml", "dependabot.yaml"],
@@ -357,12 +345,8 @@ export const files: Icon[] = [
     icon: "docker_compose",
   },
   {
-    filenames: ["dub.json", "dub.sdl"],
+    filenames: ["dub.json", "dub.sdl", "dub.selections.json"],
     icon: "dub",
-  },
-  {
-    filenames: ["dub.selections.json"],
-    icon: "dub_selections",
   },
   {
     filenames: [".editorconfig"],
@@ -440,16 +424,10 @@ export const files: Icon[] = [
       "eslint.config.cjs",
       "eslint.config.mjs",
       "eslint.config.ts",
+      ".eslintignore",
+      ".eslintcache",
     ],
     icon: "eslint",
-  },
-  {
-    filenames: [".eslintignore"],
-    icon: "eslint_ignore",
-  },
-  {
-    filenames: [".eslintcache"],
-    icon: "eslint_ignore,",
   },
   {
     filenames: ["fastfile", "appfile"],
@@ -584,14 +562,6 @@ export const files: Icon[] = [
     icon: "histoire",
   },
   {
-    filenames: ["CNAME"],
-    icon: "http",
-  },
-  {
-    filenames: ["humans.txt"],
-    icon: "humans",
-  },
-  {
     filenames: [
       ".huskyrc",
       "husky.config.js",
@@ -608,7 +578,7 @@ export const files: Icon[] = [
   },
   {
     filenames: ["jsconfig.json"],
-    icon: "javascript_config",
+    icon: "javascript",
   },
   {
     filenames: [
@@ -657,18 +627,6 @@ export const files: Icon[] = [
   },
   {
     filenames: [
-      ".jscsrc",
-      ".jshintrc",
-      "composer.lock",
-      ".jsbeautifyrc",
-      ".esformatter",
-      "cdp.pid",
-      ".whitesource",
-    ],
-    icon: "json",
-  },
-  {
-    filenames: [
       ".lintstagedrc",
       ".lintstagedrc.json",
       ".lintstagedrc.yaml",
@@ -687,8 +645,8 @@ export const files: Icon[] = [
     icon: "just",
   },
   {
-    filenames: [".htpasswd"],
-    icon: "key",
+    filenames: [".htpasswd", "maven.config", "jvm.config", "pom.xml"],
+    icon: "apache",
   },
   {
     filenames: ["artisan"],
@@ -732,34 +690,6 @@ export const files: Icon[] = [
     icon: "license",
   },
   {
-    filenames: [".liquidrc.json", ".liquidrc"],
-    icon: "liquid",
-  },
-  {
-    filenames: [".luacheckrc"],
-    icon: "lua",
-  },
-  {
-    filenames: ["makefile", "gnumakefile", "kbuild"],
-    icon: "makefile",
-  },
-  {
-    filenames: ["maven.config", "jvm.config", "pom.xml"],
-    icon: "maven",
-  },
-  {
-    filenames: ["meson.build", "meson_options.txt"],
-    icon: "meson",
-  },
-  {
-    filenames: ["mid", "midi"],
-    icon: "midi",
-  },
-  {
-    filenames: [".mjmlconfig"],
-    icon: "mjml",
-  },
-  {
     filenames: [".modernizrrc", ".modernizrrc.js", ".modernizrrc.json"],
     icon: "modernizr",
   },
@@ -794,40 +724,28 @@ export const files: Icon[] = [
     icon: "nginx",
   },
   {
-    filenames: ["flake.lock"],
-    icon: "nix_lock",
-  },
-  {
     filenames: ["nodemon.json", "nodemon-debug.json"],
     icon: "nodemon",
   },
   {
-    filenames: [".npmrc"],
+    filenames: [
+      ".npmrc",
+      ".npmignore",
+      "package-lock.json",
+      "package.json",
+      ".nvmrc",
+      ".esmrc",
+      ".node-version",
+    ],
     icon: "npm",
-  },
-  {
-    filenames: [".npmignore"],
-    icon: "npm_ignore",
-  },
-  {
-    filenames: ["package-lock.json"],
-    icon: "npm_lock",
   },
   {
     filenames: ["nuget.config", ".nuspec", "nuget.exe"],
     icon: "nuget",
   },
   {
-    filenames: [".nuxtrc", "nuxt.config.js", "nuxt.config.ts"],
+    filenames: [".nuxtrc", "nuxt.config.js", "nuxt.config.ts", ".nuxtignore"],
     icon: "nuxt",
-  },
-  {
-    filenames: [".nuxtignore"],
-    icon: "nuxt_ignore",
-  },
-  {
-    filenames: ["package.json", ".nvmrc", ".esmrc", ".node-version"],
-    icon: "package_json",
   },
   {
     filenames: [
@@ -849,12 +767,8 @@ export const files: Icon[] = [
     icon: "phrase",
   },
   {
-    filenames: ["pixi.toml"],
+    filenames: ["pixi.toml", "pixi.lock"],
     icon: "pixi",
-  },
-  {
-    filenames: ["pixi.lock"],
-    icon: "pixi_lock",
   },
   {
     filenames: [
@@ -871,16 +785,8 @@ export const files: Icon[] = [
     icon: "playwright",
   },
   {
-    filenames: ["plopfile.js", "plopfile.cjs", "plopfile.mjs", "plopfile.ts"],
-    icon: "plop",
-  },
-  {
-    filenames: ["pnpm-workspace.yaml", ".pnpmfile.cjs"],
+    filenames: ["pnpm-workspace.yaml", ".pnpmfile.cjs", "pnpm-lock.yaml"],
     icon: "pnpm",
-  },
-  {
-    filenames: ["pnpm-lock.yaml"],
-    icon: "pnpm_lock",
   },
   {
     filenames: [
@@ -900,10 +806,6 @@ export const files: Icon[] = [
     icon: "postcss",
   },
   {
-    filenames: ["premake4.lua", "premake5.lua", "premake.lua"],
-    icon: "premake",
-  },
-  {
     filenames: [
       ".prettierrc",
       "prettier.config.js",
@@ -917,12 +819,9 @@ export const files: Icon[] = [
       ".prettierrc.toml",
       "prettier.config.mjs",
       ".prettierrc.mjs",
+      ".prettierignore",
     ],
     icon: "prettier",
-  },
-  {
-    filenames: [".prettierignore"],
-    icon: "prettier_ignore",
   },
   {
     filenames: ["prisma.yml"],
@@ -938,20 +837,11 @@ export const files: Icon[] = [
       ".puppeteerrc.js",
       ".puppeteerrc.json",
       ".puppeteerrc.yaml",
+      ".puppeteerrc",
+      "puppeteer.config.js",
+      "puppeteer.config.cjs",
     ],
-    icon: "puppeteer,",
-  },
-  {
-    filenames: [".puppeteerrc", "puppeteer.config.js", "puppeteer.config.cjs"],
     icon: "puppeteer",
-  },
-  {
-    filenames: [".Rhistory"],
-    icon: "r",
-  },
-  {
-    filenames: ["readme.md", "readme.rst", "readme.txt", "readme"],
-    icon: "readme",
   },
   {
     filenames: ["redwood.toml"],
@@ -960,20 +850,6 @@ export const files: Icon[] = [
   {
     filenames: ["remix.config.js", "remix.config.ts"],
     icon: "remix",
-  },
-  {
-    filenames: [
-      ".renovaterc",
-      ".renovaterc.json",
-      "renovate-config.json",
-      "renovate.json",
-      "renovate.json5",
-    ],
-    icon: "renovate",
-  },
-  {
-    filenames: ["robots.txt"],
-    icon: "robots",
   },
   {
     filenames: [
@@ -1002,45 +878,16 @@ export const files: Icon[] = [
     icon: "rollup",
   },
   {
-    filenames: [".ruby-version"],
+    filenames: [".ruby-version", "gemfile", "gemfile.lock"],
     icon: "ruby",
-  },
-  {
-    filenames: ["gemfile"],
-    icon: "ruby_gem",
-  },
-  {
-    filenames: ["gemfile.lock"],
-    icon: "ruby_gem_lock",
   },
   {
     filenames: ["ruff.toml", ".ruff.toml"],
     icon: "ruff",
   },
   {
-    filenames: ["security.md", "security.txt", "security"],
-    icon: "security",
-  },
-  {
-    filenames: [
-      ".releaserc",
-      ".releaserc.yaml",
-      ".releaserc.yml",
-      ".releaserc.json",
-      ".releaserc.js",
-      ".releaserc.cjs",
-      "release.config.js",
-      "release.config.cjs",
-    ],
-    icon: "semantic_release",
-  },
-  {
-    filenames: ["semgrep.yml"],
+    filenames: ["semgrep.yml", ".semgrepignore"],
     icon: "semgrep",
-  },
-  {
-    filenames: [".semgrepignore"],
-    icon: "semgrep_ignore",
   },
   {
     filenames: [".sentryclirc"],
@@ -1082,14 +929,6 @@ export const files: Icon[] = [
     icon: "stackblitz",
   },
   {
-    filenames: ["stencil.config.js", "stencil.config.ts"],
-    icon: "stencil",
-  },
-  {
-    filenames: ["stitches.config.js", "stitches.config.ts"],
-    icon: "stitches",
-  },
-  {
     filenames: [
       ".stylelintrc",
       "stylelint.config.js",
@@ -1101,12 +940,10 @@ export const files: Icon[] = [
       ".stylelintrc.js",
       ".stylelintrc.cjs",
       ".stylelintrc.mjs",
+      ".stylelintignore",
+      ".stylelintcache",
     ],
     icon: "stylelint",
-  },
-  {
-    filenames: [".stylelintignore", ".stylelintcache"],
-    icon: "stylelint_ignore",
   },
   {
     filenames: [
@@ -1132,30 +969,14 @@ export const files: Icon[] = [
   },
   {
     filenames: [
-      "taskfile.yml",
-      "taskfile.yaml",
-      "taskfile.dist.yml",
-      "taskfile.dist.yaml",
-    ],
-    icon: "taskfile",
-  },
-  {
-    filenames: [
       "tauri.conf.json",
       "tauri.config.json",
       "tauri.linux.conf.json",
       "tauri.windows.conf.json",
       "tauri.macos.conf.json",
+      ".taurignore",
     ],
     icon: "tauri",
-  },
-  {
-    filenames: [".taurignore"],
-    icon: "tauri_ignore",
-  },
-  {
-    filenames: ["todo.md", "todos.md"],
-    icon: "todo",
   },
   {
     filenames: ["turbo.json"],
@@ -1189,7 +1010,7 @@ export const files: Icon[] = [
       "tsconfig.cypress-ct.json",
       "tsconfig.components.json",
     ],
-    icon: "typescript_config",
+    icon: "typescript",
   },
   {
     filenames: [
@@ -1205,16 +1026,8 @@ export const files: Icon[] = [
     icon: "unocss",
   },
   {
-    filenames: ["vpkg.json", "v.mod"],
-    icon: "v",
-  },
-  {
-    filenames: ["vercel.json", "now.json"],
+    filenames: ["vercel.json", "now.json", ".vercelignore", ".nowignore"],
     icon: "vercel",
-  },
-  {
-    filenames: [".vercelignore", ".nowignore"],
-    icon: "vercel_ignore",
   },
   {
     filenames: [
@@ -1244,7 +1057,7 @@ export const files: Icon[] = [
   },
   {
     filenames: ["vue.config.js", "vue.config.ts"],
-    icon: "vue_config",
+    icon: "vue",
   },
   {
     filenames: [
@@ -1443,14 +1256,6 @@ export const files: Icon[] = [
     icon: "wxt",
   },
   {
-    filenames: ["xmake.lua"],
-    icon: "xmake",
-  },
-  {
-    filenames: [".htaccess"],
-    icon: "xml",
-  },
-  {
     filenames: [
       ".yarnrc",
       ".yarnclean",
@@ -1459,11 +1264,8 @@ export const files: Icon[] = [
       ".yarnrc.yml",
       ".yarnrc.yaml",
       "yarn.config.cjs",
+      "yarn.lock",
     ],
     icon: "yarn",
-  },
-  {
-    filenames: ["yarn.lock"],
-    icon: "yarn_lock",
   },
 ];

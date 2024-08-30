@@ -611,7 +611,6 @@
 `.browserslistrc`
 ### bun
 `bunfig.toml`
-### bun_lock
 `bun.lockb`
 ### caddy
 `caddyfile`
@@ -620,7 +619,6 @@
 `capacitor.config.ts`
 ### cargo
 `cargo.toml`
-### cargo_lock
 `cargo.lock`
 ### changelog
 `changelog`
@@ -686,7 +684,6 @@
 ### deno
 `deno.json`
 `deno.jsonc`
-### deno_lock
 `deno.lock`
 ### dependabot
 `dependabot.yml`
@@ -793,7 +790,6 @@
 ### dub
 `dub.json`
 `dub.sdl`
-### dub_selections
 `dub.selections.json`
 ### editorconfig
 `.editorconfig`
@@ -856,9 +852,7 @@
 `eslint.config.cjs`
 `eslint.config.mjs`
 `eslint.config.ts`
-### eslint_ignore
 `.eslintignore`
-### eslint_ignore,
 `.eslintcache`
 ### fastlane
 `fastfile`
@@ -956,10 +950,6 @@
 `histoire.config.js`
 `.histoire.js`
 `.histoire.ts`
-### http
-`CNAME`
-### humans
-`humans.txt`
 ### husky
 `.huskyrc`
 `husky.config.js`
@@ -970,7 +960,7 @@
 ### ionic
 `ionic.config.json`
 `.io-config.json`
-### javascript_config
+### javascript
 `jsconfig.json`
 ### jest
 `jest.config.js`
@@ -1013,14 +1003,6 @@
 `jest.preset.mjs`
 `jest.preset.cjs`
 `jest.preset.json`
-### json
-`.jscsrc`
-`.jshintrc`
-`composer.lock`
-`.jsbeautifyrc`
-`.esformatter`
-`cdp.pid`
-`.whitesource`
 ### lint_staged
 `.lintstagedrc`
 `.lintstagedrc.json`
@@ -1034,8 +1016,11 @@
 `lint-staged.config.cjs`
 ### just
 `justfile`
-### key
+### apache
 `.htpasswd`
+`maven.config`
+`jvm.config`
+`pom.xml`
 ### laravel
 `artisan`
 ### lerna
@@ -1069,27 +1054,6 @@
 `licence.md`
 `licence.rst`
 `licence.txt`
-### liquid
-`.liquidrc.json`
-`.liquidrc`
-### lua
-`.luacheckrc`
-### makefile
-`makefile`
-`gnumakefile`
-`kbuild`
-### maven
-`maven.config`
-`jvm.config`
-`pom.xml`
-### meson
-`meson.build`
-`meson_options.txt`
-### midi
-`mid`
-`midi`
-### mjml
-`.mjmlconfig`
 ### modernizr
 `.modernizrrc`
 `.modernizrrc.js`
@@ -1114,17 +1078,17 @@
 `next.config.mts`
 ### nginx
 `nginx.conf`
-### nix_lock
-`flake.lock`
 ### nodemon
 `nodemon.json`
 `nodemon-debug.json`
 ### npm
 `.npmrc`
-### npm_ignore
 `.npmignore`
-### npm_lock
 `package-lock.json`
+`package.json`
+`.nvmrc`
+`.esmrc`
+`.node-version`
 ### nuget
 `nuget.config`
 `.nuspec`
@@ -1133,13 +1097,7 @@
 `.nuxtrc`
 `nuxt.config.js`
 `nuxt.config.ts`
-### nuxt_ignore
 `.nuxtignore`
-### package_json
-`package.json`
-`.nvmrc`
-`.esmrc`
-`.node-version`
 ### panda_css
 `panda.config.ts`
 `panda.config.js`
@@ -1153,7 +1111,6 @@
 `.phraseapp.yaml`
 ### pixi
 `pixi.toml`
-### pixi_lock
 `pixi.lock`
 ### playwright
 `playwright.config.js`
@@ -1165,15 +1122,9 @@
 `playwright-ct.config.js`
 `playwright-ct.config.mjs`
 `playwright-ct.config.ts`
-### plop
-`plopfile.js`
-`plopfile.cjs`
-`plopfile.mjs`
-`plopfile.ts`
 ### pnpm
 `pnpm-workspace.yaml`
 `.pnpmfile.cjs`
-### pnpm_lock
 `pnpm-lock.yaml`
 ### postcss
 `postcss.config.js`
@@ -1188,10 +1139,6 @@
 `.postcssrc.json`
 `.postcssrc.yaml`
 `.postcssrc.yml`
-### premake
-`premake4.lua`
-`premake5.lua`
-`premake.lua`
 ### prettier
 `.prettierrc`
 `prettier.config.js`
@@ -1205,7 +1152,6 @@
 `.prettierrc.toml`
 `prettier.config.mjs`
 `.prettierrc.mjs`
-### prettier_ignore
 `.prettierignore`
 ### prisma
 `prisma.yml`
@@ -1213,35 +1159,19 @@
 `.pug-lintrc`
 `.pug-lintrc.js`
 `.pug-lintrc.json`
-### puppeteer,
+### puppeteer
 `.puppeteerrc.cjs`
 `.puppeteerrc.js`
 `.puppeteerrc.json`
 `.puppeteerrc.yaml`
-### puppeteer
 `.puppeteerrc`
 `puppeteer.config.js`
 `puppeteer.config.cjs`
-### r
-`.Rhistory`
-### readme
-`readme.md`
-`readme.rst`
-`readme.txt`
-`readme`
 ### redwood
 `redwood.toml`
 ### remix
 `remix.config.js`
 `remix.config.ts`
-### renovate
-`.renovaterc`
-`.renovaterc.json`
-`renovate-config.json`
-`renovate.json`
-`renovate.json5`
-### robots
-`robots.txt`
 ### rollup
 `rollup.config.js`
 `rollup.config.mjs`
@@ -1266,29 +1196,13 @@
 `rollup.config.prod.vendor.ts`
 ### ruby
 `.ruby-version`
-### ruby_gem
 `gemfile`
-### ruby_gem_lock
 `gemfile.lock`
 ### ruff
 `ruff.toml`
 `.ruff.toml`
-### security
-`security.md`
-`security.txt`
-`security`
-### semantic_release
-`.releaserc`
-`.releaserc.yaml`
-`.releaserc.yml`
-`.releaserc.json`
-`.releaserc.js`
-`.releaserc.cjs`
-`release.config.js`
-`release.config.cjs`
 ### semgrep
 `semgrep.yml`
-### semgrep_ignore
 `.semgrepignore`
 ### sentry
 `.sentryclirc`
@@ -1313,12 +1227,6 @@
 `sonarcloud.yaml`
 ### stackblitz
 `.stackblitzrc`
-### stencil
-`stencil.config.js`
-`stencil.config.ts`
-### stitches
-`stitches.config.js`
-`stitches.config.ts`
 ### stylelint
 `.stylelintrc`
 `stylelint.config.js`
@@ -1330,7 +1238,6 @@
 `.stylelintrc.js`
 `.stylelintrc.cjs`
 `.stylelintrc.mjs`
-### stylelint_ignore
 `.stylelintignore`
 `.stylelintcache`
 ### svelte_config
@@ -1347,25 +1254,16 @@
 `tailwind.config.ts`
 `tailwind.config.cts`
 `tailwind.config.mts`
-### taskfile
-`taskfile.yml`
-`taskfile.yaml`
-`taskfile.dist.yml`
-`taskfile.dist.yaml`
 ### tauri
 `tauri.conf.json`
 `tauri.config.json`
 `tauri.linux.conf.json`
 `tauri.windows.conf.json`
 `tauri.macos.conf.json`
-### tauri_ignore
 `.taurignore`
-### todo
-`todo.md`
-`todos.md`
 ### turbo
 `turbo.json`
-### typescript_config
+### typescript
 `tsconfig.json`
 `tsconfig.app.json`
 `tsconfig.editor.json`
@@ -1400,13 +1298,9 @@
 `unocss.config.mjs`
 `unocss.config.ts`
 `unocss.config.mts`
-### v
-`vpkg.json`
-`v.mod`
 ### vercel
 `vercel.json`
 `now.json`
-### vercel_ignore
 `.vercelignore`
 `.nowignore`
 ### vite
@@ -1425,7 +1319,7 @@
 `vitest.config.cjs`
 ### vscode_ignore
 `.vscodeignore`
-### vue_config
+### vue
 `vue.config.js`
 `vue.config.ts`
 ### webpack
@@ -1615,10 +1509,6 @@
 ### wxt
 `wxt.config.js`
 `wxt.config.ts`
-### xmake
-`xmake.lua`
-### xml
-`.htaccess`
 ### yarn
 `.yarnrc`
 `.yarnclean`
@@ -1627,5 +1517,796 @@
 `.yarnrc.yml`
 `.yarnrc.yaml`
 `yarn.config.cjs`
-### yarn_lock
 `yarn.lock`
+## EXT [ONLY TOKENS]
+### adobe_ae
+`aep`
+### adobe_ai
+`ai`
+### adobe_id
+`indd`
+`indl`
+`indb`
+### image
+`psd`
+`psb`
+`png`
+`jpeg`
+`jpg`
+`gif`
+`ico`
+`tif`
+`tiff`
+`ami`
+`apx`
+`avif`
+`bmp`
+`bpg`
+`brk`
+`cur`
+`dds`
+`dng`
+`exr`
+`fpx`
+`gbr`
+`img`
+`jbig2`
+`jb2`
+`jng`
+`jxr`
+`pgf`
+`pic`
+`raw`
+`webp`
+`eps`
+`afphoto`
+`ase`
+`aseprite`
+`clip`
+`cpt`
+`heif`
+`heic`
+`kra`
+`mdp`
+`ora`
+`pdn`
+`reb`
+`sai`
+`tga`
+`xcf`
+`jfif`
+`ppm`
+`pbm`
+`pgm`
+`pnm`
+`icns`
+### adobe_xd
+`xd`
+### amber
+`ab`
+`amber`
+### android
+`apk`
+`smali`
+`dex`
+### angular
+`ng-template`
+### antlr
+`g4`
+### api_blueprint
+`apib`
+`apiblueprint`
+### asciidoc
+`adoc`
+`asciidoc`
+### key
+`asc`
+`pub`
+`key`
+`pem`
+`gpg`
+`passwd`
+`keystore`
+### assembly
+`asm`
+`a51`
+`inc`
+`nasm`
+`s`
+`ms`
+`agc`
+`ags`
+`aea`
+`argus`
+`mitigus`
+`binsource`
+### astro
+`astro`
+### audio
+`aac`
+`aiff`
+`alac`
+`flac`
+`m4a`
+`m4p`
+`mogg`
+`mp3`
+`oga`
+`opus`
+`wav`
+`wma`
+`wv`
+### azure_pipelines
+`azure-pipelines.yml`
+`azure-pipelines.yaml`
+`azure-pipelines-main.yml`
+`azure-pipelines-main.yaml`
+### bash
+`sh`
+`ksh`
+`csh`
+`tcsh`
+`zsh`
+`bash`
+`awk`
+`fish`
+### batch
+`bat`
+`cmd`
+### bazel
+`bzl`
+`bazel`
+### binary
+`bin`
+### c
+`c`
+`i`
+`mi`
+### c_header
+`h`
+### caddy
+`caddyfile`
+### certificate
+`cer`
+`cert`
+`crt`
+`pfx`
+### clojure
+`clj`
+`cljs`
+`cljc`
+### cmake
+`cmake`
+### cobol
+`cob`
+`cbl`
+### coffeescript
+`coffee`
+`cson`
+`iced`
+### cpp
+`cc`
+`cpp`
+`cxx`
+`c++`
+`cp`
+`mii`
+`ii`
+### cpp_header
+`hh`
+`hpp`
+`hxx`
+`h++`
+`hp`
+`tcc`
+`inl`
+### csharp
+`cs`
+`csx`
+`csharp`
+### css
+`css`
+### css_map
+`css.map`
+### csv
+`csv`
+`tsv`
+`psv`
+### cucumber
+`feature`
+`features`
+### cuda
+`cu`
+`cuh`
+### d
+`d`
+`di`
+### dart
+`dart`
+### dart_generated
+`freezed.dart`
+`g.dart`
+### database
+`pdb`
+`sql`
+`pks`
+`pkb`
+`accdb`
+`mdb`
+`sqlite`
+`sqlite3`
+`pgsql`
+`postgres`
+`plpgsql`
+`psql`
+`db`
+`db3`
+### dhall
+`dhall`
+`dhallb`
+### django
+`djt`
+### docker
+`dockerfile`
+`containerfile`
+### docker_compose
+`docker-compose.yml`
+`docker-compose.yaml`
+`compose.yaml`
+`compose.yml`
+### docker_ignore
+`dockerignore`
+`containerignore`
+### drawio
+`drawio`
+`dio`
+### ejs
+`ejs`
+### elixir
+`ex`
+`exs`
+`eex`
+`leex`
+`heex`
+### elm
+`elm`
+### env
+`env`
+### erlang
+`erl`
+### exe
+`exe`
+`msi`
+### figma
+`fig`
+### font
+`woff`
+`woff2`
+`ttf`
+`eot`
+`suit`
+`otf`
+`bmap`
+`fnt`
+`odttf`
+`ttc`
+`font`
+`fonts`
+`sui`
+`ntf`
+`mrf`
+### fortran
+`f`
+`f77`
+`f90`
+`f95`
+`f03`
+`f08`
+### fsharp
+`fs`
+`fsx`
+`fsi`
+`fsproj`
+### git
+`patch`
+### gitlab
+`gitlab-ci.yml`
+### gleam
+`gleam`
+### go
+`go`
+### godot
+`gd`
+### godot_assets
+`godot`
+`tres`
+`tscn`
+`gdns`
+`gdnlib`
+`gdshader`
+`gdshaderinc`
+`gdextension`
+### gradle
+`gradle`
+### graphql
+`graphql`
+`gql`
+### groovy
+`groovy`
+### haml
+`haml`
+### handlebars
+`hbs`
+`mustache`
+### haskell
+`hs`
+### haxe
+`hx`
+### html
+`htm`
+`html`
+`xhtml`
+`html_vm`
+`asp`
+### http
+`http`
+`rest`
+### huff
+`huff`
+### java
+`java`
+`jsp`
+### java_class
+`class`
+### java_jar
+`jar`
+### javascript
+`esx`
+`js`
+`cjs`
+`mjs`
+### javascript_config
+`jsconfig.json`
+### javascript_map
+`js.map`
+`mjs.map`
+`cjs.map`
+### javascript_react
+`jsx`
+### javascript_test
+`spec.js`
+`spec.cjs`
+`spec.mjs`
+`e2e-spec.js`
+`e2e-spec.cjs`
+`e2e-spec.mjs`
+`test.js`
+`test.cjs`
+`test.mjs`
+`js.snap`
+`cy.js`
+`spec.jsx`
+`test.jsx`
+`jsx.snap`
+`cy.jsx`
+### jinja
+`jinja`
+`jinja2`
+`j2`
+`jinja-html`
+### json
+`json`
+`jsonc`
+`tsbuildinfo`
+`json5`
+`jsonl`
+`ndjson`
+`hjson`
+`webmanifest`
+### json_schema
+`schema.json`
+### julia
+`jl`
+### jupyter
+`ipynb`
+### kotlin
+`kt`
+`kts`
+### laravel
+`blade.php`
+`inky.php`
+### latex
+`tex`
+`sty`
+`dtx`
+`ltx`
+### less
+`less`
+### lib
+`lib`
+`bib`
+### liquid
+`liquid`
+### lisp
+`lisp`
+`lsp`
+`cl`
+`fast`
+### log
+`log`
+### lua
+`lua`
+### luau
+`luau`
+### makefile
+`mk`
+### markdown
+`md`
+`markdown`
+`rst`
+### markdown_mdx
+`mdx`
+### marko
+`marko`
+### mermaid
+`mmd`
+`mermaid`
+### meson
+`wrap`
+### mjml
+`mjml`
+### ms_excel
+`xlsx`
+`xlsm`
+`xls`
+### ms_powerpoint
+`pptx`
+`ppt`
+`pptm`
+`potx`
+`potm`
+`ppsx`
+`ppsm`
+`pps`
+`ppam`
+`ppa`
+`odp`
+### ms_word
+`doc`
+`docx`
+`rtf`
+`odt`
+### nextflow
+`nf`
+### nginx
+`nginx`
+`nginxconf`
+`nginxconfig`
+### nim
+`nim`
+`nimble`
+### ninja
+`ninja`
+### nix
+`nix`
+### nuget
+`nupkg`
+### nunjucks
+`njk`
+`nunjucks`
+### ocaml
+`ml`
+`mli`
+`cmx`
+### org
+`org`
+### pdf
+`pdf`
+### perl
+`pm`
+`raku`
+### php
+`php`
+### plantuml
+`pu`
+`puml`
+`plantuml`
+### postcss
+`pcss`
+`sss`
+### powershell
+`ps1`
+`psm1`
+`psd1`
+`ps1xml`
+`psc1`
+`pssc`
+### prisma
+`prisma`
+### prolog
+`p`
+`pro`
+`pl`
+### properties
+`ini`
+`dlc`
+`config`
+`conf`
+`properties`
+`prop`
+`settings`
+`option`
+`props`
+`prefs`
+`sln.dotsettings`
+`sln.dotsettings.user`
+`cfg`
+### proto
+`proto`
+### pug
+`jade`
+`pug`
+### python
+`py`
+### python_compiled
+`pyc`
+`pyo`
+`pyd`
+### r
+`r`
+`rmd`
+### racket
+`rkt`
+### razor
+`cshtml`
+`vbhtml`
+### reason
+`re`
+`rei`
+### rescript
+`res`
+### ruby
+`rb`
+`erb`
+`rbs`
+### rust
+`rs`
+`ron`
+### salesforce
+`cls`
+### sass
+`scss`
+`sass`
+### scala
+`scala`
+### super_collider
+`sc`
+`scd`
+### search
+`code-search`
+### shader
+`glsl`
+`vert`
+`tesc`
+`tese`
+`geom`
+`frag`
+`comp`
+`vert.glsl`
+`tesc.glsl`
+`tese.glsl`
+`geom.glsl`
+`frag.glsl`
+`comp.glsl`
+`vertex.glsl`
+`geometry.glsl`
+`fragment.glsl`
+`compute.glsl`
+`ts.glsl`
+`gs.glsl`
+`vs.glsl`
+`fs.glsl`
+`shader`
+`vertexshader`
+`fragmentshader`
+`geometryshader`
+`computeshader`
+`hlsl`
+`pixel.hlsl`
+`geometry.hlsl`
+`compute.hlsl`
+`tessellation.hlsl`
+`px.hlsl`
+`geom.hlsl`
+`comp.hlsl`
+`tess.hlsl`
+`wgsl`
+### sketch
+`sketch`
+### solidity
+`sol`
+### spwn
+`spwn`
+### stata
+`ado`
+`do`
+`dta`
+### storybook
+`stories.js`
+`stories.jsx`
+`stories.mdx`
+`story.js`
+`story.jsx`
+`stories.ts`
+`stories.tsx`
+`story.ts`
+`story.tsx`
+`story.mdx`
+### storybook_svelte
+`story.svelte`
+`stories.svelte`
+### storybook_vue
+`story.vue`
+`stories.vue`
+### sublime
+`sublime-project`
+`sublime-workspace`
+### svelte
+`svelte`
+### svg
+`svg`
+### swift
+`swift`
+### tauri
+`tauri`
+### terraform
+`tf`
+`tf.json`
+`tfvars`
+`tfstate`
+`tfbackend`
+### text
+`txt`
+### todo
+`todo`
+### toml
+`toml`
+### twig
+`twig`
+### twine
+`tw`
+`twee`
+### typescript
+`ts`
+### typescript_config
+`tsconfig.json`
+### typescript_def
+`d.ts`
+`d.cts`
+`d.mts`
+### typescript_react
+`tsx`
+### typescript_test
+`spec.ts`
+`spec.cts`
+`spec.mts`
+`cy.ts`
+`e2e-spec.ts`
+`e2e-spec.cts`
+`e2e-spec.mts`
+`test.ts`
+`test.cts`
+`test.mts`
+`ts.snap`
+`spec-d.ts`
+`test-d.ts`
+`spec.tsx`
+`test.tsx`
+`tsx.snap`
+`cy.tsx`
+### typst
+`typ`
+### unity
+`unity`
+### url
+`url`
+### v
+`v`
+### vento
+`vto`
+### verilog
+`vhd`
+`sv`
+`svh`
+### vhs
+`tape`
+### video
+`webm`
+`mkv`
+`flv`
+`vob`
+`ogv`
+`ogg`
+`gifv`
+`avi`
+`mov`
+`qt`
+`wmv`
+`yuv`
+`rm`
+`rmvb`
+`mp4`
+`m4v`
+`mpg`
+`mp2`
+`mpeg`
+`mpe`
+`mpv`
+`m2v`
+### vim
+`vimrc`
+`gvimrc`
+`exrc`
+`vim`
+`viminfo`
+### visual_studio
+`csproj`
+`ruleset`
+`sln`
+`suo`
+`vb`
+`vbs`
+`vcxitems`
+`vcxitems.filters`
+`vcxproj`
+`vcxproj.filters`
+### vital
+`vital`
+`vitalbank`
+`vitallfo`
+`vitalskin`
+`vitaltable`
+`vitaltheme`
+### vscode
+`vsixmanifest`
+`vsix`
+`code-workplace`
+`code-workspace`
+`code-profile`
+`code-snippets`
+### vue
+`vue`
+### web_assembly
+`wat`
+`wasm`
+### windi
+`windi`
+### workflow
+`workflows/yml`
+`workflows/yaml`
+### xaml
+`xaml`
+### xml
+`xml`
+`plist`
+`xsd`
+`dtd`
+`xsl`
+`xslt`
+`resx`
+`iml`
+`xquery`
+`tmLanguage`
+`manifest`
+`project`
+`xml.dist`
+`xml.dist.sample`
+`dmn`
+`jrxml`
+### yaml
+`yml`
+`yaml`
+### zap
+`zap`
+### zig
+`zig`
