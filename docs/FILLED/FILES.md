@@ -921,8 +921,8 @@
 `.stylelintrc.mjs`
 `.stylelintignore`
 `.stylelintcache`
-### svelte_config
-<img src="../../icons/filled/files/svelte_config.svg" width="60" height="60"/>
+### svelte
+<img src="../../icons/filled/files/svelte.svg" width="60" height="60"/>
 
 `svelte.config.js`
 `svelte.config.ts`

@@ -947,7 +947,7 @@ export const files: Icon[] = [
       "svelte.config.cjs",
       "svelte.config.mjs",
     ],
-    icon: "svelte_config",
+    icon: "svelte",
   },
   {
     filenames: [
