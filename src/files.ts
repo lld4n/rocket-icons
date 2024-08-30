@@ -272,11 +272,6 @@ export const files: Icon[] = [
       "containerfile.ci",
       "containerfile.web",
       "containerfile.worker",
-    ],
-    icon: "docker",
-  },
-  {
-    filenames: [
       "docker-compose.yml",
       "docker-compose.override.yml",
       "docker-compose.prod.yml",
@@ -342,7 +337,7 @@ export const files: Icon[] = [
       "compose.web.yml",
       "compose.worker.yml",
     ],
-    icon: "docker_compose",
+    icon: "docker",
   },
   {
     filenames: ["dub.json", "dub.sdl", "dub.selections.json"],

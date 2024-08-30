@@ -1,6 +1,14 @@
 import * as fs from "node:fs";
 import { spawnSync } from "node:child_process";
-import { ext, files, folders, IconVariant } from "./src";
+import {
+  common,
+  ext,
+  files,
+  folders,
+  Icon,
+  IconType,
+  IconVariant,
+} from "./src";
 
 const PACKAGE_JSON = JSON.parse(fs.readFileSync("./package.json").toString());
 
@@ -9,6 +17,7 @@ const version = PACKAGE_JSON.version;
 
 let message = "";
 let no_deploy = false;
+
 for (let i = 0; i < args.length; i++) {
   if (args[i] === "-m") {
     if (args[i + 1]) {
@@ -19,39 +28,36 @@ for (let i = 0; i < args.length; i++) {
   }
 }
 
-for (const key in IconVariant) {
-  const VARIANT = key.toUpperCase();
-  let md = `# ${VARIANT}\n`;
+const map: { [type in IconType]: Icon[] } = {
+  [IconType.FOLDERS]: folders,
+  [IconType.COMMON]: common,
+  [IconType.FILES]: files,
+  [IconType.EXT]: ext,
+};
 
-  md += `## FOLDERS\n`;
-  for (const icon of folders) {
-    md += `### ${icon.icon}\n`;
-    md += `<img src="../icons/${key.toLowerCase()}/folders/${icon.icon}.svg" width="60" height="60"/>\n\n`;
-    for (const filename of icon.filenames) {
-      md += `\`${filename}\`\n`;
+for (const variant in IconVariant) {
+  const VARIANT = variant.toUpperCase();
+  for (const type in IconType) {
+    const TYPE = type.toUpperCase();
+    let md = `# ${VARIANT} - ${TYPE}\n`;
+    md +=
+      variant.toLowerCase() === IconVariant.OUTLINE
+        ? "> only dark theme in IDE\n"
+        : "";
+    const items: Icon[] = map[type.toLowerCase() as IconType];
+
+    for (const icon of items) {
+      md += `### ${icon.icon}\n`;
+      md += `<img src="../../icons/${variant.toLowerCase()}/${type.toLowerCase()}/${icon.icon}.svg" width="60" height="60"/>\n\n`;
+      for (const filename of icon.filenames) {
+        md += `\`${filename}\`\n`;
+      }
     }
-  }
 
-  md += `## FILES [ONLY TOKENS]\n`;
-  for (const icon of files) {
-    md += `### ${icon.icon}\n`;
-    // md += `<img src="../icons/${key.toLowerCase()}/folders/${icon.icon}.svg" width="60" height="60"/>\n\n`;
-    for (const filename of icon.filenames) {
-      md += `\`${filename}\`\n`;
-    }
+    fs.writeFileSync(`./docs/${VARIANT}/${TYPE}.md`, md);
   }
-
-  md += `## EXT [ONLY TOKENS]\n`;
-  for (const icon of ext) {
-    md += `### ${icon.icon}\n`;
-    // md += `<img src="../icons/${key.toLowerCase()}/folders/${icon.icon}.svg" width="60" height="60"/>\n\n`;
-    for (const filename of icon.filenames) {
-      md += `\`${filename}\`\n`;
-    }
-  }
-
-  fs.writeFileSync(`./docs/${VARIANT}.md`, md);
 }
+
 if (!no_deploy) {
   const commitMessage = version + message;
   spawnSync("git", ["add", "."], { stdio: "inherit" });
