@@ -15,6 +15,14 @@ const PACKAGE_JSON = JSON.parse(fs.readFileSync("./package.json").toString());
 const args = process.argv;
 const version = PACKAGE_JSON.version;
 
+const oldVersion = fs.readFileSync("./version").toString();
+
+if (oldVersion === version) {
+  throw new Error("Неправильные версии");
+}
+
+fs.writeFileSync("./version", version);
+
 let message = "";
 let no_deploy = false;
 
