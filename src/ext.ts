@@ -174,28 +174,12 @@ export const ext: Icon[] = [
     filenames: [".pipe.spec.ts", ".pipe.test.ts"],
   },
   {
-    icon: "angular_directive",
-    filenames: [".directive.ts"],
-  },
-  {
-    icon: "angular_directive_spec",
-    filenames: [".directive.spec.ts", ".directive.test.ts"],
-  },
-  {
     icon: "angular_config",
     filenames: [".config.ts"],
   },
   {
     icon: "angular_guard",
     filenames: [".guard.ts"],
-  },
-  {
-    icon: "angular_interceptor",
-    filenames: [".interceptor.ts"],
-  },
-  {
-    icon: "angular_resolver",
-    filenames: [".resolver.ts"],
   },
   {
     icon: "angular_routes",
@@ -242,7 +226,7 @@ export const ext: Icon[] = [
   },
   {
     icon: "javascript_react_spec",
-    filenames: ["spec.jsx", "test.jsx"],
+    filenames: [".spec.jsx", ".test.jsx"],
   },
   {
     icon: "javascript_spec",
@@ -261,7 +245,7 @@ export const ext: Icon[] = [
     filenames: [".ts"],
   },
   {
-    icon: "typescript_def",
+    icon: "typescript_dev",
     filenames: [".d.ts", ".d.cts", ".d.mts"],
   },
   {
@@ -270,46 +254,46 @@ export const ext: Icon[] = [
   },
   {
     icon: "typescript_react_spec",
-    filenames: ["spec.tsx", "test.tsx"],
+    filenames: [".spec.tsx", ".test.tsx"],
   },
   {
     icon: "typescript_spec",
     filenames: [
-      "spec.ts",
-      "spec.cts",
-      "spec.mts",
-      "test.ts",
-      "test.cts",
-      "test.mts",
+      ".spec.ts",
+      ".spec.cts",
+      ".spec.mts",
+      ".test.ts",
+      ".test.cts",
+      ".test.mts",
     ],
   },
   // storybook
   {
     icon: "storybook_mdx",
-    filenames: ["stories.mdx", "story.mdx"],
+    filenames: [".stories.mdx", ".story.mdx"],
   },
   {
     icon: "storybook_react_javascript",
-    filenames: ["stories.jsx", "story.jsx"],
+    filenames: [".stories.jsx", ".story.jsx"],
   },
   {
     icon: "storybook_react_typescript",
-    filenames: ["stories.tsx", "story.tsx"],
+    filenames: [".stories.tsx", ".story.tsx"],
   },
   {
     icon: "storybook_javascript",
-    filenames: ["stories.js", "story.js"],
+    filenames: [".stories.js", ".story.js"],
   },
   {
     icon: "storybook_typescript",
-    filenames: ["stories.ts", "story.ts"],
+    filenames: [".stories.ts", ".story.ts"],
   },
   {
     icon: "storybook_svelte",
-    filenames: ["story.svelte", "stories.svelte"],
+    filenames: [".story.svelte", ".stories.svelte"],
   },
   {
     icon: "storybook_vue",
-    filenames: ["story.vue", "stories.vue"],
+    filenames: [".story.vue", ".stories.vue"],
   },
 ];

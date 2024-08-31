@@ -171,15 +171,6 @@
 
 `.pipe.spec.ts`
 `.pipe.test.ts`
-### angular_directive
-<img src="../../icons/duo/ext/angular_directive.svg" width="60" height="60"/>
-
-`.directive.ts`
-### angular_directive_spec
-<img src="../../icons/duo/ext/angular_directive_spec.svg" width="60" height="60"/>
-
-`.directive.spec.ts`
-`.directive.test.ts`
 ### angular_config
 <img src="../../icons/duo/ext/angular_config.svg" width="60" height="60"/>
 
@@ -188,14 +179,6 @@
 <img src="../../icons/duo/ext/angular_guard.svg" width="60" height="60"/>
 
 `.guard.ts`
-### angular_interceptor
-<img src="../../icons/duo/ext/angular_interceptor.svg" width="60" height="60"/>
-
-`.interceptor.ts`
-### angular_resolver
-<img src="../../icons/duo/ext/angular_resolver.svg" width="60" height="60"/>
-
-`.resolver.ts`
 ### angular_routes
 <img src="../../icons/duo/ext/angular_routes.svg" width="60" height="60"/>
 
@@ -248,8 +231,8 @@
 ### javascript_react_spec
 <img src="../../icons/duo/ext/javascript_react_spec.svg" width="60" height="60"/>
 
-`spec.jsx`
-`test.jsx`
+`.spec.jsx`
+`.test.jsx`
 ### javascript_spec
 <img src="../../icons/duo/ext/javascript_spec.svg" width="60" height="60"/>
 
@@ -263,8 +246,8 @@
 <img src="../../icons/duo/ext/typescript.svg" width="60" height="60"/>
 
 `.ts`
-### typescript_def
-<img src="../../icons/duo/ext/typescript_def.svg" width="60" height="60"/>
+### typescript_dev
+<img src="../../icons/duo/ext/typescript_dev.svg" width="60" height="60"/>
 
 `.d.ts`
 `.d.cts`
@@ -276,49 +259,49 @@
 ### typescript_react_spec
 <img src="../../icons/duo/ext/typescript_react_spec.svg" width="60" height="60"/>
 
-`spec.tsx`
-`test.tsx`
+`.spec.tsx`
+`.test.tsx`
 ### typescript_spec
 <img src="../../icons/duo/ext/typescript_spec.svg" width="60" height="60"/>
 
-`spec.ts`
-`spec.cts`
-`spec.mts`
-`test.ts`
-`test.cts`
-`test.mts`
+`.spec.ts`
+`.spec.cts`
+`.spec.mts`
+`.test.ts`
+`.test.cts`
+`.test.mts`
 ### storybook_mdx
 <img src="../../icons/duo/ext/storybook_mdx.svg" width="60" height="60"/>
 
-`stories.mdx`
-`story.mdx`
+`.stories.mdx`
+`.story.mdx`
 ### storybook_react_javascript
 <img src="../../icons/duo/ext/storybook_react_javascript.svg" width="60" height="60"/>
 
-`stories.jsx`
-`story.jsx`
+`.stories.jsx`
+`.story.jsx`
 ### storybook_react_typescript
 <img src="../../icons/duo/ext/storybook_react_typescript.svg" width="60" height="60"/>
 
-`stories.tsx`
-`story.tsx`
+`.stories.tsx`
+`.story.tsx`
 ### storybook_javascript
 <img src="../../icons/duo/ext/storybook_javascript.svg" width="60" height="60"/>
 
-`stories.js`
-`story.js`
+`.stories.js`
+`.story.js`
 ### storybook_typescript
 <img src="../../icons/duo/ext/storybook_typescript.svg" width="60" height="60"/>
 
-`stories.ts`
-`story.ts`
+`.stories.ts`
+`.story.ts`
 ### storybook_svelte
 <img src="../../icons/duo/ext/storybook_svelte.svg" width="60" height="60"/>
 
-`story.svelte`
-`stories.svelte`
+`.story.svelte`
+`.stories.svelte`
 ### storybook_vue
 <img src="../../icons/duo/ext/storybook_vue.svg" width="60" height="60"/>
 
-`story.vue`
-`stories.vue`
+`.story.vue`
+`.stories.vue`
