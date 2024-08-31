@@ -32,6 +32,7 @@ function rename() {
           "./icons/" + file,
           "./icons/" + file.replace("variant=", ""),
         );
+        console.log(file, file.replace("variant=", ""));
       } catch (e) {}
     }
   }
