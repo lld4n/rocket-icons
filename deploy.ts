@@ -38,6 +38,7 @@ for (let i = 0; i < args.length; i++) {
 
 const map: { [type in IconType]: Icon[] } = {
   [IconType.FOLDERS]: folders,
+  [IconType.RECTANGLE]: folders,
   [IconType.COMMON]: common,
   [IconType.FILES]: files,
   [IconType.EXT]: ext,
