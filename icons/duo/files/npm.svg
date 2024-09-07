@@ -1,9 +1,8 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="2.5" y="2.5" width="11" height="11" rx="2.5" fill="white"/>
+<rect x="2.5" y="2.5" width="11" height="11" rx="2.5" fill="#2C0709"/>
 <rect x="2.5" y="2.5" width="11" height="11" rx="2.5" stroke="#C12127"/>
 <g clip-path="url(#clip0_79_79)">
-<path d="M5 11V5H11V11H5ZM6.125 6.125V9.875H8V6.875H9.125V9.875H9.875V6.125H6.125Z" fill="#C12127"/>
-<path d="M6.125 6.125H9.875V9.875H9.125V6.875H8V9.875H6.125V6.125Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5 5V11H11V5H5ZM9.875 6.125H6.125V9.875H8V6.875H9.125V9.875H9.875V6.125Z" fill="#C12127"/>
 </g>
 <defs>
 <clipPath id="clip0_79_79">

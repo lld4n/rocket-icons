@@ -228,11 +228,13 @@
 <img src="../../icons/filled/ext/javascript_react.svg" width="60" height="60"/>
 
 `.jsx`
-### javascript_react_spec
-<img src="../../icons/filled/ext/javascript_react_spec.svg" width="60" height="60"/>
+### react_spec
+<img src="../../icons/filled/ext/react_spec.svg" width="60" height="60"/>
 
 `.spec.jsx`
 `.test.jsx`
+`.spec.tsx`
+`.test.tsx`
 ### javascript_spec
 <img src="../../icons/filled/ext/javascript_spec.svg" width="60" height="60"/>
 
@@ -256,11 +258,6 @@
 <img src="../../icons/filled/ext/typescript_react.svg" width="60" height="60"/>
 
 `.tsx`
-### typescript_react_spec
-<img src="../../icons/filled/ext/typescript_react_spec.svg" width="60" height="60"/>
-
-`.spec.tsx`
-`.test.tsx`
 ### typescript_spec
 <img src="../../icons/filled/ext/typescript_spec.svg" width="60" height="60"/>
 

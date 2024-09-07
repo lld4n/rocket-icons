@@ -225,8 +225,8 @@ export const ext: Icon[] = [
     filenames: [".jsx"],
   },
   {
-    icon: "javascript_react_spec",
-    filenames: [".spec.jsx", ".test.jsx"],
+    icon: "react_spec",
+    filenames: [".spec.jsx", ".test.jsx", ".spec.tsx", ".test.tsx"],
   },
   {
     icon: "javascript_spec",
@@ -251,10 +251,6 @@ export const ext: Icon[] = [
   {
     icon: "typescript_react",
     filenames: [".tsx"],
-  },
-  {
-    icon: "typescript_react_spec",
-    filenames: [".spec.tsx", ".test.tsx"],
   },
   {
     icon: "typescript_spec",
