@@ -6,3 +6,6 @@
 ### file
 <img src="../../icons/outline/common/file.svg" width="60" height="60"/>
 
+### rectangle
+<img src="../../icons/outline/common/rectangle.svg" width="60" height="60"/>
+
