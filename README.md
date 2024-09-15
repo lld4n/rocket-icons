@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/JetBrains%20Plugin-0366D6)](https://github.com/lld4n/rocket-icons-jetbrains)
 [![](https://img.shields.io/badge/Author-000000)](https://github.com/lld4n)
 [![](https://img.shields.io/badge/LICENSE%20MIT-000000)](https://github.com/lld4n/rocket-icons/tree/master/LICENSE)
-[![](https://img.shields.io/badge/0.5.6-000000)](https://github.com/lld4n/rocket-icons/releases)
+[![](https://img.shields.io/badge/0.5.7-000000)](https://github.com/lld4n/rocket-icons/releases)
 <!--BADGE_END--->
 
 Icon Pack for plugins:
@@ -26,6 +26,7 @@ The icons were designed with an eye towards minimalism. Two colors were used in 
 ![OUTLINE](./docs/icons/outline.svg)
 ![FILLED](./docs/icons/filled.svg)
 ![REVERSE](./docs/icons/reverse.svg)
+
 
 
 
